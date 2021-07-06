@@ -3,8 +3,9 @@ body{
     margin: 0;
 }
 #navbar{
-    background-color: black;
-    padding: 20px 20px;
+    background-color:rgb(56, 65, 83);
+    padding: 10px 20px;
+    padding-bottom: 15px;
     
 }
 .nav{
@@ -48,6 +49,7 @@ span{
 p{
     font-size: 25px;
     color: gray;
+    
 }
 .button{
     text-decoration: none;
@@ -56,5 +58,62 @@ p{
     padding: 20px 40px;
     border-radius: 30px;
     font-weight: 900;
+    box-shadow: 5px 5px 20px tomato;
     
+}
+#second-bg{
+    background-image: url(images/second-bg2.png);
+    background-repeat: no-repeat;
+}
+.second-pic{
+    width:50%;
+}
+.second-text{
+    width: 50%;
+    padding-top: 100px;
+}
+h2{
+    font-size: 40px;
+    color:  rgb(90, 90, 90);
+}
+.second-p{
+    text-align: justify;
+}
+
+
+
+.card-up-text{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding-top:50px ;
+}
+
+.card{
+    display: flex;
+    margin-left: 200px;
+    padding: 50px;
+}
+
+.card1{
+    border-radius: 25px;
+    width: 400px;
+    box-shadow: 10px 10px 30px gray;
+    margin: 50px;
+
+}
+.card1 img{
+    width: 90%;
+    padding: 20px;
+    
+}
+.card1 h2{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.card1 p{
+    padding-bottom: 40px;
+    font-size: 20px;
+    padding: 20px;
 }
